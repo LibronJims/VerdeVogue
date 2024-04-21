@@ -39,10 +39,9 @@
     font-size: 18px;
     margin-left: 10px;
   }
-  
+
 
 .privpol-heading{
-    /* Center text, set font size, align and justify content, set color, width, padding, and margin */
     text-align: center;
     font-size: 4rem;
     align-items: baseline;
@@ -55,12 +54,11 @@
     font-family: 'Playball', cursive;
   }  
   .privpol-heading span{
-    /* Set color and font size for span element */
     color: var(--green);
     font-size: 1.8rem;
     font-weight: 600;
   }
-
+  
   body {
     line-height: 1.6;
     color: #333;
@@ -68,12 +66,12 @@
     padding: 20px;
     font-weight: 500;
     font-family: 'Lato';
-    margin-top: 5rem; /* Add some margin at the top of each section */
+    margin-top: 5rem;
     background-image: url(/images/white.jpg);
     background-attachment: fixed;
 }
 
-#priv-pol-content {
+#terms-reg-content {
     max-width: 1000px;
     margin: 0 auto;
     background-color: var(--whiteBG);
@@ -90,34 +88,34 @@
     margin-bottom: 20px;
   }
 
-#priv-pol-content h1 {
-    font-size: 20px; /* Adjust the font size for headings */
-    margin-top: 20px; /* Add space above headings */
-    margin-bottom: 1px; /* Add space below headings */
+#terms-reg-content h1 {
+    font-size: 20px; 
+    margin-top: 20px; 
+    margin-bottom: 1px; 
 }
 
-#priv-pol-content p {
+#terms-reg-content p {
     font-size: 1.4rem;
-    line-height: 1.5; /* Set line height for better readability */
-    margin-bottom: 40px; /* Add space below paragraphs */
-    padding-left: 50px; /* Adjust the padding as needed */
+    line-height: 1.5; 
+    margin-bottom: 40px; 
+    padding-left: 50px;
     padding-right: 100px;
 }
 
-#priv-pol-content span {
-    display: block; /* Make spans block elements for better spacing */
-    margin-top: 10px; /* Add space above spans */
+#terms-reg-content span {
+    display: block; 
+    margin-top: 10px; 
 }
-#priv-pol-content #mail {
+#terms-reg-content #mail {
     font-weight: 600;
 }
 
-#priv-pol-content #mail:hover {
+#terms-reg-content #mail:hover {
     font-weight: 600;
     color: #0c6b3d;
     transform: scale(0.98);
     text-decoration: underline;
 }
-#priv-pol-content br {
-    display: none; /* Remove extra line breaks */
+#terms-reg-content br {
+    display: none; 
 }

@@ -15,27 +15,26 @@ header {
   
   /* Logo styles */
   .logo a {
-    /* Display the logo as a flex container with vertically centered content */
     display: flex;
     align-items: center;
-    gap: .1rem;  /* Set a small gap between the image and text */
-    font-size: 2.5rem;  /* Set the font size of the logo text */
-    color: #333;  /* Set the color of the logo text */
-    font-weight: bolder;  /* Set the font weight of the logo text */
-    height: 50px;  /* Set the height of the logo container */
-    line-height: 10px;  /* Set the line height to vertically center the text */
+    gap: .1rem;
+    font-size: 2.5rem; 
+    color: #333; 
+    font-weight: bolder; 
+    height: 50px; 
+    line-height: 10px;  
   }
   
   .left-logo {
     /* Set the width and height of the logo image */
     width: 50px;
     height: auto;
-    object-fit: contain;  /* Set the object fit to contain the image within the specified dimensions */
-    cursor: pointer;  /* Set the cursor to a pointer when hovering over the image */
+    object-fit: contain;  
+    cursor: pointer;  
   }
   
   .logo-text {
-    font-family: 'GFS Didot', serif;  /* Set the font family of the logo text */
+    font-family: 'GFS Didot', serif;  
   }
   
   
@@ -44,7 +43,7 @@ header {
   header .navbar a {
     font-size: 1.5rem;  /* Font size and padding for navbar links */
     padding: 0 2.3rem;
-    color: #333;  /* Color for navbar categories */
+    color: #333; 
   }
   
   /* Styles for navbar links */

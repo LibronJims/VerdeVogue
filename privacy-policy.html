@@ -17,13 +17,10 @@
 <body>
         <!-- Header section -->
         <header>
-            <!-- Checkbox for toggling the navigation menu -->
             <input type="checkbox" name="" id="toggler">
     
-            <!-- Label for the checkbox -->
             <label for="toggler" class="fas fa-bars"></label>
     
-            <!-- Logo for the website -->
             <div class="logo">
               <a href="/main.html">
                 <img src="images/leaf.png" alt="logo" class="left-logo">
@@ -45,11 +42,18 @@
             <div class="search-icon">
                     <input type="search" placeholder="Search...">
                     <label for="search icon">
-                    <a href="#" class="fas fa-search"></a>
+                    <a href="/main.html#Home" class="fas fa-search"></a>
                     </label>
             </div>
         </header>
     
+
+        <div class="back-btn">
+          <a href="/main.html#Home">
+            <i class="fas fa-arrow-left"></i>
+            <span class="back-label"> Back </span>
+          </a>
+        </div> 
 
         <div id="priv-pol-content">
           <h1>Privacy Policy for Verde Vogue</h1>
@@ -59,7 +63,7 @@
             This Privacy Policy outlines how we collect, use, and safeguard your data when you visit our website.
             </p>
             <br>
-            <h1>Information We Collect</h1>
+            <h2>Information We Collect</h2>
             <br>
             <p>
             When you visit Verde Vogue, we may collect the following information:
@@ -68,7 +72,7 @@
             on each page, and referring website. This information is collected using cookies and similar tracking technologies.
             </p>
             <br>
-            <h1>How We Use Your Information</h1>
+            <h2>How We Use Your Information</h2>
             <br>
             <p>
             We use the information we collect for the following purposes:
@@ -78,21 +82,21 @@
             tailored content. This information is used to provide recommendations based on your interests and browsing history.
             </p>
             <br>
-            <h1>Data Security</h1>
+            <h2>Data Security</h2>
             <br>
             <p>
             We implement security measures to protect your personal information from unauthorized access, alteration, disclosure, 
             or destruction. While we strive to protect your personal information, no website or internet transmission is completely secure.
             </p>
             <br>
-            <h1>Third-Party Links</h1>
+            <h2>Third-Party Links</h2>
             <br>
             <p>
             Our website may contain links to third-party websites. We are not responsible for the privacy practices or content 
             of these websites. We encourage you to review the privacy policies of these websites before providing any personal information.
             </p>
             <br>
-            <h1>Cookies and Similar Tracking Technologies</h1>
+            <h2>Cookies and Similar Tracking Technologies</h2>
             <br>
             <p>
             We use cookies and similar tracking technologies to collect usage data and personalize your experience on our website. 
@@ -100,7 +104,7 @@
             preferences by adjusting your browser settings.
             </p>
             <br>
-            <h1>Changes to Privacy Policy</h1>
+            <h2>Changes to Privacy Policy</h2>
             <br>
             <p>
             We reserve the right to update or modify this Privacy Policy at any time. We will notify you of any changes by 
@@ -115,91 +119,95 @@
             security of your personal information.</span>
             </p>
         </div>
-        <div id="Befooter" class="before">
-          <div class="quote">
-            <div class="day">
-              <h1>Spread the <span>Word.</span></h1>
-            </div>
-            <p>Verde Vogue is committed to providing free access to all who require it.
-              <br> 
-              Support our mission by sharing the positive environmental news and updates with others.</p>
-              <button onclick="copyLink()" class="button">Share</button>
-  </script>
-          </div>
-        </div>
-  
-  
-      <!-- Footer section -->
-      <footer id="footer">
-          <!-- Content of the footer -->
-          <div class="content">
-            <div class="left box">
-              <div class="upper">
-                <div class="topic"><h3>About Us</h3></div>
-                <p>Verde Vogue is a treasure trove of helpful knowledge, suggestions, 
-                  and recommendations on how to take care of the environment, from choosing 
-                  eco-friendly fashion brands to adopting sustainable beauty practices. We 
-                  emphasize the importance of considering the impact of our decisions on the 
-                  planet and being part of a healthy community that cares about the welfare 
-                  of all people</p>
-              </div>
-              <div class="lower">
-                <div class="topic"><h3>Connect with Us</h3></div>
-                <div class="phone">
-                  <a href="https://www.google.com/contacts/"><i class="fas fa-phone-volume"></i>(+63) 300 224 1719</a>
-                </div>
-                <div class="email">
-                  <a href="mailto:gelotfj@gmail.com"><i class="fas fa-envelope"></i>verdevogue@gmail.com</a>
-                </div>
-              </div>
-            </div>
-            <div class="middle box">
-              <div class="topic"><h3>Categories</h3></div>
-              <div><a href="#Culture"><h3>Culture</h3></a></div>
-              <div><a href="#Clothing"><h3>Clothing</h3></a></div>
-              <div><a href="#Cosmetics"><h3>Cosmetics</h3></a></div>
-            </div>
-            <div class="right box">
-              <div class="topic">
-                <h3>Newsletter</h3>
-              </div>
-              <span>
-                Subscribe to our newsletter for a weekly dose
-                of news, updates, helpful tips, and
-                product recommendations.
-              </span>
-              <form action="#">
-                <input type="email" placeholder="Enter your email address" required>
-  
-                <span style="font-size: 12px; color: #888;">By subscribing, you agree to receive emails from our website.</span>
-                <input type="submit" name="" value="Send">
-              </form>
-                <div class="media-icons">
-                  <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                  <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                  <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                  <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                  <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-              </form>
-            </div>
-          </div>
-          
-    <!-- Bottom of the footer -->
-    <div class="vbottom">
-      <div class="left-bottom">
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <span> | </span>
-        <a href="terms-and-regulations.html">Terms and Regulations</a>
+   <!-- Before Footer section -->
+   <div id="Befooter" class="before">
+    <div class="quote">
+      <div class="day">
+        <h1>Spread the <span>Word.</span></h1>
       </div>
-      <p> © 2024 <a href="#Home">TechieTigers</a>. All rights reserved</p>
+      <p>Verde Vogue is committed to providing free access to all who require it.
+        <br> 
+        Support our mission by sharing the positive environmental news and updates with others.</p>
+        <button class="button">Share</button>
     </div>
-        </footer>
+  </div>
+
+
+<!-- Footer section -->
+<footer id="footer">
+  <!-- Content of the footer -->
+  <div class="content">
+    <div class="left box">
+      <div class="upper">
+        <div class="topic"><h3>About Us</h3></div>
+        <p>Verde Vogue is a treasure trove of helpful knowledge, suggestions, 
+          and recommendations on how to take care of the environment, from choosing 
+          eco-friendly fashion brands to adopting sustainable beauty practices. We 
+          emphasize the importance of considering the impact of our decisions on the 
+          planet and being part of a healthy community that cares about the welfare 
+          of all people</p>
+      </div>
+      <div class="lower">
+        <div class="topic"><h3>Connect with Us</h3></div>
+        <div class="location">
+          <a href="https://www.google.com/maps/place/UPang/@16.6448,120.3774,15z/data=!4m5!3m4!1s0x0:0x645c078188f61195!8m2!3d16.6448!4d120.3774" 
+          target="_blank"><i class="fas fa-location-dot"></i> Arellano St., Dagupan City, Pangasinan, Philippines 2400 </a>
+        </div>
+        <div class="phone">
+          <a href="https://www.google.com/contacts/"><i class="fas fa-phone-volume"></i>(+63) 300 224 1719</a>
+        </div>
+        <div class="email">
+          <a href="mailto:gelotfj@gmail.com"><i class="fas fa-envelope"></i>verdevogue@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="middle box">
+      <div class="topic"><h3>Categories</h3></div>
+      <div><a href="/main.html#Culture">Culture</a></div><br>
+      <div><a href="/main.html#Clothing">Clothing</a></div><br>
+      <div><a href="/main.html#Cosmetics">Cosmetics</a></div><br>
+    </div>
+    <div class="right box">
+      <div class="topic">
+        <h3>Newsletter</h3>
+      </div>
+      <span>
+        Subscribe to our newsletter for a weekly dose
+        of news, updates, helpful tips, and
+        product recommendations.
+      </span>
+      <form action="#">
+        <input type="email" placeholder="Enter your email address" required>
+
+        <span>By subscribing, you agree to receive emails from our website.</span>
+        <input type="submit" name="" value="Send">
+      </form>
+        <div class="media-icons">
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </form>
+    </div>
+  </div>
   
-      <!-- Scroll skipper -->
-      <div class="skip">
-        <a href="#priv-pol-content"><i class="fas fa-arrow-up"></i></a>
-      </div>        
+<!-- Bottom of the footer -->
+<div class="vbottom">
+<div class="left-bottom">
+<a href="/privacy-policy.html">Privacy Policy</a>
+<span> | </span>
+<a href="/terms-and-regulations.html">Terms and Regulations</a>
+</div>
+<p> © 2024 <a href="/main.html#Home">TechieTigers</a>. All rights reserved</p>
+</div>
+</footer>
+
+<!-- Scroll skipper -->
+<div class="skip">
+  <a href="#priv-pol-content"><i class="fas fa-arrow-up"></i></a>
+</div>      
 
     </body>
 </html>
