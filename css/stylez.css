@@ -108,9 +108,22 @@ section {
   padding: 1rem 0;
   line-height: 1.5;
 }
+
+#spanner{
+  font-family: 'Playball';
+  font-size: 4rem;
+}
+
+#underline{
+  text-decoration: underline;
+  font-size: 1.5rem;
+  color: var(--green);
+}
+
+
 .home .content p{ 
   font-size: 1.5rem;
-  color: #6f6f6f; 
+  color: #5D675E; 
   padding: 1rem 0;
   line-height: 1.5;
 }

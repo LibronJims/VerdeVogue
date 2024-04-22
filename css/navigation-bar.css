@@ -41,13 +41,13 @@ header {
   
   /* Navbar categories styles */
   header .navbar a {
-    font-size: 1.5rem;  /* Font size and padding for navbar links */
+    font-size: 1.5rem;  
     padding: 0 2.3rem;
     color: #333; 
   }
   
   /* Styles for navbar links */
-  .navbar a {  /* Position, color, font size, font weight, padding, and text decoration for navbar links */
+  .navbar a {  
     position: relative;
     color: #333;
     font-size: 20px;
@@ -57,7 +57,7 @@ header {
   }
   
   /* Styles for navbar categories hover effect */
-  .navbar a:before {  /* Content, position, bottom, left, height, width, background, border radius, and transition for navbar link hover effect */
+  .navbar a:before {  
     content: '';
     position: absolute;
     bottom: 0;
@@ -72,7 +72,7 @@ header {
   
   /* Styles for navbar link hover effect */
   .navbar a:hover:before {
-    width: calc(100% - 4.6rem); /* Adjust the width to be the width of the text minus the padding */
+    width: calc(100% - 4.6rem); 
     transform: translateX(-50%) scale(0.9);
   }
   
@@ -139,23 +139,6 @@ header {
     display: block;
   }
 
-  /* Adjust font sizes for home section content */
-  .home .content h3{
-    font-size: 5rem;
-  }
-  .home .content span{
-    font-size: 2.5rem;
-  }
 }
 
-@media (max-width: 450px) {
-  /* Reduce font size for smaller screens */
-  html {
-    font-size: 50%;
-  }
 
-  /* Adjust font size for headings */
-  .heading{
-    font-size: 3rem;
-  }
-}
