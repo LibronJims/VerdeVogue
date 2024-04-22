@@ -55,7 +55,6 @@
     font-family: 'Playball', cursive;
   }  
   .privpol-heading span{
-    /* Set color and font size for span element */
     color: var(--green);
     font-size: 1.8rem;
     font-weight: 600;
@@ -68,7 +67,7 @@
     padding: 20px;
     font-weight: 500;
     font-family: 'Lato';
-    margin-top: 5rem; /* Add some margin at the top of each section */
+    margin-top: 5rem; 
     background-image: url(/images/white.jpg);
     background-attachment: fixed;
 }
@@ -91,22 +90,24 @@
   }
 
 #priv-pol-content h1 {
-    font-size: 20px; /* Adjust the font size for headings */
-    margin-top: 20px; /* Add space above headings */
-    margin-bottom: 1px; /* Add space below headings */
+    font-size: 20px; 
+    margin-top: 20px; 
+    margin-bottom: 1px; 
+    border-bottom: 2px solid #5D675E;
+    margin-bottom: 2rem;
 }
 
 #priv-pol-content p {
     font-size: 1.4rem;
-    line-height: 1.5; /* Set line height for better readability */
-    margin-bottom: 40px; /* Add space below paragraphs */
-    padding-left: 50px; /* Adjust the padding as needed */
+    line-height: 1.5;
+    margin-bottom: 40px; 
+    padding-left: 50px; 
     padding-right: 100px;
 }
 
 #priv-pol-content span {
-    display: block; /* Make spans block elements for better spacing */
-    margin-top: 10px; /* Add space above spans */
+    display: block; 
+    margin-top: 10px; 
 }
 #priv-pol-content #mail {
     font-weight: 600;
@@ -119,5 +120,5 @@
     text-decoration: underline;
 }
 #priv-pol-content br {
-    display: none; /* Remove extra line breaks */
+    display: none; 
 }

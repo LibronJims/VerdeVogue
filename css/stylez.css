@@ -45,23 +45,26 @@ section {
   padding-top: -12rem;
   scroll-margin-top: -12rem;
   background: var(--whiteBG);
+  
 }
 
 /* Heading styles */
 .heading{
   text-align: center;
-  font-size: xx-large; 
+  font-size: 4rem; 
   font-family: 'Playball', cursive;
   color: #333;
-  padding: 1rem;
+  padding: 2px;
   margin: 2rem 0;
-  background: rgba(0, 0, 0, .1);
+  /* background: rgba(0, 0, 0, .1); */
+  border-bottom: 2px solid #5D675E;
+  margin-bottom: 2rem;
 }
 
 /* Span styles within the heading */
 .heading span{
   color: var(--green); 
-  font-size: 4rem; 
+  font-size: xx-large; 
 }
 
 /* Button styles */
@@ -216,7 +219,7 @@ section {
   width: 100%;
   padding: 2px;
   box-sizing: border-box;  margin: 2rem 0;
-  background: rgba(0, 0, 0, .1);
+  /* background: rgba(0, 0, 0, .1); */
   font-family: 'Playball', cursive;
   border-bottom: 2px solid #5D675E;
   margin-bottom: 2rem;
@@ -320,7 +323,7 @@ section {
   width: 100%;
   padding: 2px;
   box-sizing: border-box;  margin: 2rem 0;
-  background: rgba(0, 0, 0, .1);
+  /* background: rgba(0, 0, 0, .1); */
   font-family: 'Playball', cursive;
   border-bottom: 2px solid #5D675E;
   margin-bottom: 2rem;
@@ -423,7 +426,7 @@ section {
   width: 100%;
   padding: 2px;
   box-sizing: border-box;  margin: 2rem 0;
-  background: rgba(0, 0, 0, .1);
+  /* background: rgba(0, 0, 0, .1); */
   font-family: 'Playball', cursive;
   border-bottom: 2px solid #5D675E;
   margin-bottom: 2rem;
